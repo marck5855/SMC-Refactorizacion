@@ -1,0 +1,109 @@
+body {
+	font-family: 'Montserrat', sans-serif !important;
+	font-size:  20px !important;
+	color: #6f6f6f !important;
+}
+
+li.cerrarSesion a:hover {
+	background-color: #f52337 !important;
+}
+
+li.cerrarSesion a {
+	background-color: #444242 !important;
+	border-radius: 4px !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	font-weight: 700 !important;
+	color: #fff !important;
+	font-size: 1rem !important;
+}
+
+input, h2.tituloSeccion, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5,
+	.h6 {
+	font-family: 'Montserrat', sans-serif !important;
+}
+p{
+	color: #6f6f6f !important; 
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+
+h2.tituloSeccion {
+	font-size: 24px !important;
+	color: #6f6f6f !important;
+}
+
+.btn, .botonFormulario {
+	border-radius: 5px !important;
+}
+
+.btn, .botonFormulario {
+	font-family: 'Montserrat', sans-serif !important;
+	background-color: #f52337 !important;
+	border-radius: 4px !important;
+	box-shadow: none !important;
+	color: #ffffff !important;
+	font-weight: 700 !important;
+	text-transform: none !important;
+	transition: all 0.5s !important s;
+	font-size: 15px !important;
+	height: 36px !important;
+}
+
+.btn:hover, .botonFormulario:hover {
+	background-color: #d0113d !important;
+	color: white !important;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0
+		rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+
+.separador{
+	margin-top: 3rem !important;
+}
+
+.seccionMediaFormulario{
+	display: flex;
+	width:100%; 
+}
+	.seccionMediaFormulario .etiquetaFormulario,
+	.seccionMediaFormulario .conEtiquetaIzquierda,
+	.seccionMediaFormulario textarea{
+		flex: auto 1;
+	}
+	
+	.seccionMediaFormulario .conEtiquetaIzquierda,
+	.seccionMediaFormulario textarea{
+		max-width:600px; 
+	}
+	
+.content-file{
+	padding: 1rem 1.5rem;
+}
+select.status{
+	    margin-top: 25px;
+}
+	
+input[type="search"], input[type="text"], input[type="email"], textarea.form-control,
+	select.form-control {
+	background-color: transparent !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="search"]:focus,
+	textarea.form-control:focus, select.form-control:focus {
+	border: 1px solid #f52337 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+select.form-control, input.form-control, textarea.form-control {
+	border-radius: 0px !important;
+}
+
+div.dataTables_filter label {
+	color: #6f6f6f !important;
+}
+
+.conEtiquetaIzquierda {
+	width: 78% !important;
+}

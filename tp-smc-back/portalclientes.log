@@ -1,0 +1,275 @@
+2018-09-28 14:01:28,442 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:01:33,096 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:01:43,538 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:03:23,136 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:21:18,706 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:23:30,880 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:25:15,605 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:30:04,643 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:31:34,879 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 14:51:36,775 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 16:04:23,300 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 17:48:54,746 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 18:00:26,078 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 18:30:03,171 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 18:30:18,773 [ERROR] manager.RolManager - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-09-28 18:33:09,361 [ERROR] manager.HomeManager - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-09-28 18:33:40,080 [ERROR] manager.HomeManager - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-09-28 18:35:36,845 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:35:42,794 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:12,826 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:20,767 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:20,787 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:22,912 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:25,418 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:25,530 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:25,543 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:27,207 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:36:45,627 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:41:37,457 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:42:56,995 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:44:08,590 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:44:16,589 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:44:33,024 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:44:33,036 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:44:58,449 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:50:05,053 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:50:44,777 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:50:58,860 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:04,628 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:06,795 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:07,802 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:08,674 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:09,754 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:10,541 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:11,034 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:11,340 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:11,652 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:12,046 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:12,692 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:20,751 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:48,119 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:53,513 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:53,571 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:53,584 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:57,028 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:51:58,937 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:52:06,322 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:52:06,335 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 18:52:26,186 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:23:57,375 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:24:23,941 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:24:38,476 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:25:09,384 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:25:09,469 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-09-28 19:25:09,479 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-02 20:11:49,844 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 10:18:12,040 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 12:54:28,478 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 12:58:45,062 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:01:01,425 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:06:53,939 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:10:26,000 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:11:22,301 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:14:27,952 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-03 13:14:28,059 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 13:14:28,111 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 13:14:28,131 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-03 13:15:06,984 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:16:19,765 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:17:11,093 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:19:32,625 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:24:40,772 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-03 13:46:37,149 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:49:48,897 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:50:08,088 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-03 13:56:16,378 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:57:02,193 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:57:21,395 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-03 13:58:56,358 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:06:20,375 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:45,185 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:53,942 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:53,961 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:55,724 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:59,002 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:59,101 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:09:59,116 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:10:00,620 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:23:41,581 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:23:50,554 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:26:13,513 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:31:39,443 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 14:36:48,543 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 17:06:48,090 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:16:16,009 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:16:16,029 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:17:45,824 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:17:45,839 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:18:29,362 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:13,239 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:13,303 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:13,314 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:53,469 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:53,606 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:23:53,620 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:24:51,184 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:26:14,554 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:26:14,566 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:27:12,555 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:29:46,840 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:29:59,103 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:30:00,646 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:30:00,701 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:30:00,710 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:30:03,190 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:25,334 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:36,298 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:38,341 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:38,422 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:38,433 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:32:39,535 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:33:13,272 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:33:13,283 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:33:23,851 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:36:44,796 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:39:56,125 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:39:56,138 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:43:55,510 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:44:04,738 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:44:15,698 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:44:30,736 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:44:40,223 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:44:57,705 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:47:45,185 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:47:45,234 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:47:45,242 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:52:08,309 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:52:08,364 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:52:08,371 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:52:11,765 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:52:14,945 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:53:51,847 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:54:39,666 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 18:55:10,363 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:05:57,046 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:06:00,873 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:06:03,352 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:09:32,947 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:09:32,955 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:10:31,165 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:10:31,173 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:16,081 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:21,873 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:23,376 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:23,423 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:23,431 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:15:25,754 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:16:51,544 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:20:09,028 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:21:47,695 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:22:28,602 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:23:47,210 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:23:47,221 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:24:32,461 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:24:32,468 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:29:26,743 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:37:38,566 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:40:20,831 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:40:20,875 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:40:20,881 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:41:29,481 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:03,733 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:03,851 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:03,857 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:04,958 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:07,281 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-03 19:57:11,428 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 11:04:10,986 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-04 11:04:14,327 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-04 11:04:17,769 [ERROR] manager.UserManager - Error:java.lang.NullPointerException
+2018-10-04 11:05:41,264 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 11:05:53,080 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:23:16,249 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:23:36,559 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:24:55,596 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:02,226 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:08,020 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:10,405 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:17,736 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:20,865 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:23,575 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:27,474 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:41,152 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:26:41,175 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:27:45,301 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:29:28,410 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:29:49,811 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:29:56,592 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:30:05,966 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:30:56,129 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:31:00,757 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:31:05,075 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:47:34,379 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:47:50,861 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:47:50,888 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:48:17,116 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 13:48:17,140 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:27:00,181 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:27:09,977 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:27:13,836 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:27:42,933 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:27:45,762 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:35,309 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:37,029 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:38,249 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:39,327 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:40,818 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:29:43,219 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:33:14,039 [ERROR] manager.HomeManager - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:37:43,542 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:37:43,561 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:43:03,116 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:43:03,228 [ERROR] manager.CatalogosManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:43:03,238 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:43:05,330 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 14:43:06,947 [ERROR] manager.IncidentsManager - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 15:01:07,003 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:07,404 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:07,658 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:07,812 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:08,071 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:08,432 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:08,685 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:08,888 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:09,111 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:09,455 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:15,657 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:16,013 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:16,421 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:16,669 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:16,819 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:17,057 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:17,285 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:17,646 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:17,898 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 15:01:18,101 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 21:09:39,389 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-04 21:10:16,112 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-04 21:39:41,162 [ERROR] manager.RolManager - Error:java.lang.NullPointerException
+2018-10-04 23:31:21,710 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-04 23:32:41,981 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 11:42:45,648 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:06:00,726 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:06:24,047 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:49:13,344 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 14:03:20,777 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:03:21,184 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:03:21,436 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:03:21,643 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:03:21,844 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:06:54,637 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:06:54,992 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:06:55,254 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:06:55,454 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-05 14:06:55,661 [ERROR] manager.IncidentsManager - Error:org.springframework.web.client.HttpClientErrorException: 401 null

@@ -1,0 +1,1730 @@
+2018-09-20 21:13:16 ERROR SpringApplication:863 - Application run failed
+java.lang.NoSuchMethodError: org.springframework.util.Assert.isTrue(ZLjava/util/function/Supplier;)V
+	at org.springframework.boot.context.properties.bind.Bindable.withExistingValue(Bindable.java:162)
+	at org.springframework.boot.context.properties.bind.Bindable.ofInstance(Bindable.java:192)
+	at org.springframework.boot.SpringApplication.bindToSpringApplication(SpringApplication.java:566)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:157)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:137)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-27 15:08:34 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:14:54 ERROR HomeMgr:104 - org.springframework.web.client.HttpClientErrorException: 401 null
+2018-09-27 17:16:00 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:16:56 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:17:02 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:17:25 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:18:19 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:20:40 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:21:01 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:21:01 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 17:25:35 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:10:18 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:11:04 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:11:36 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:13:05 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:13:11 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:13:16 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-27 21:13:23 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-09-28 16:10:21 ERROR HomeMgr:104 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-09-28 18:33:55 ERROR HomeMgr:104 - java.lang.IllegalStateException: Session/EntityManager is closed
+2018-09-28 18:36:22 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:36:25 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:36:27 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:36:32 INFO  HomeMgr:728 - java.sql.SQLException: No suitable driver found for jdbc:mariadb://localhost:3306/datahub
+2018-09-28 18:36:36 INFO  HomeMgr:728 - java.sql.SQLException: No suitable driver found for jdbc:mariadb://localhost:3306/datahub
+2018-09-28 18:36:40 INFO  HomeMgr:728 - java.sql.SQLException: No suitable driver found for jdbc:mariadb://localhost:3306/datahub
+2018-09-28 18:36:45 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:36:47 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-09-28 18:36:47 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-09-28 18:37:20 INFO  HomeMgr:728 - java.sql.SQLException: No suitable driver found for jdbc:mariadb://localhost:3306/datahub
+2018-09-28 18:39:19 INFO  HomeMgr:728 - java.sql.SQLException: No suitable driver found for jdbc:mariadb://localhost:3306/datahub
+2018-09-28 18:44:14 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-09-28 18:44:14 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-09-28 18:44:16 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:44:58 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:44:59 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-09-28 18:44:59 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-09-28 18:51:14 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-09-28 18:51:14 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-09-28 18:51:20 INFO  HomeMgr:306 - Obtengo la organizacion id: ACTINVER
+2018-09-28 18:51:53 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:51:57 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 18:51:58 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-09-28 19:24:45 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-09-28 19:24:45 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-09-28 19:25:09 INFO  HomeMgr:306 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 13:24:40 ERROR HomeMgr:115 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-03 13:50:08 ERROR HomeMgr:115 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-03 14:06:44 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:06:44 ERROR IncidentsManager:377 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:09:45 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 14:09:55 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 14:09:59 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 14:10:00 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 14:10:02 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:03 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:06 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:06 ERROR IncidentsManager:377 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:08 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:09 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:09 ERROR IncidentsManager:377 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:52 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:10:52 ERROR IncidentsManager:377 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:24:59 ERROR HomeMgr:115 - org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9090/restportal/home/ticket": Conexión rehusada (Connection refused); nested exception is java.net.ConnectException: Conexión rehusada (Connection refused)
+2018-10-03 14:25:05 ERROR HomeMgr:115 - org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9090/restportal/home/ticket": Conexión rehusada (Connection refused); nested exception is java.net.ConnectException: Conexión rehusada (Connection refused)
+2018-10-03 14:26:18 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:26:18 ERROR IncidentsManager:377 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:31:47 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:31:49 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:32:42 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:39:31 ERROR UserManager:543 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-03 14:46:35 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:20:20 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:21:20 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:22:35 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:44:59 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:48:59 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:51:10 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:52:43 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:56:40 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 17:56:52 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 18:12:48 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-03 18:18:29 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 18:23:13 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 18:23:53 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 18:24:51 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 18:27:12 INFO  HomeMgr:317 - Obtengo la organizacion id: ELEKTRA
+2018-10-03 18:27:16 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-03 18:27:16 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-03 18:29:59 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:30:00 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:30:03 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:32:36 INFO  HomeMgr:317 - Obtengo la organizacion id: ACTINVER
+2018-10-03 18:32:38 INFO  HomeMgr:317 - Obtengo la organizacion id: ACTINVER
+2018-10-03 18:32:39 INFO  HomeMgr:317 - Obtengo la organizacion id: ACTINVER
+2018-10-03 18:33:06 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-03 18:33:06 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-03 18:44:15 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:47:45 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:52:08 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:52:11 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:52:14 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:53:51 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:54:39 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 18:55:10 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:05:57 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:06:00 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:06:03 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:15:14 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-03 19:15:14 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-03 19:15:16 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:15:21 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:15:23 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:15:25 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:16:51 INFO  HomeMgr:317 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:20:09 INFO  HomeMgr:320 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:21:47 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:22:28 INFO  HomeMgr:326 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:37:38 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:40:20 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:41:29 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:57:03 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:57:04 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:57:07 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-03 19:57:11 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-04 11:04:11 ERROR HomeMgr:115 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-04 11:04:14 ERROR HomeMgr:115 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-04 11:04:17 ERROR HomeMgr:115 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-04 13:27:41 INFO  HomeMgr:869 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: SELECT command denied to user 'portalclQA'@'10.204.82.253' for table 'cmdb_cat_clientes_puntas_vw'
+2018-10-04 13:27:45 INFO  HomeMgr:324 - Obtengo la organizacion id: SAGARPA
+2018-10-04 13:29:56 INFO  HomeMgr:324 - Obtengo la organizacion id: GOBIERNO EDO DE PUEBLA SSP CAMARAS SEGURIDAD
+2018-10-04 13:30:05 INFO  HomeMgr:324 - Obtengo la organizacion id: GOBIERNO EDO DE PUEBLA SSP CAMARAS SEGURIDAD
+2018-10-04 13:30:08 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-04 13:30:08 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-04 13:30:50 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-04 13:30:50 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-04 13:31:00 INFO  HomeMgr:324 - Obtengo la organizacion id: GOBIERNO EDO DE PUEBLA SSP CAMARAS SEGURIDAD
+2018-10-04 13:31:03 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-04 13:31:03 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-04 13:31:05 INFO  HomeMgr:324 - Obtengo la organizacion id: GOBIERNO EDO DE PUEBLA SSP CAMARAS SEGURIDAD
+2018-10-04 13:31:55 INFO  HomeMgr:324 - Obtengo la organizacion id: 
+2018-10-04 14:43:03 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 14:43:05 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 14:43:06 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 15:01:06 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 15:01:15 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 15:01:21 INFO  HomeMgr:324 - Obtengo la organizacion id: ELEKTRA
+2018-10-04 17:07:28 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:09:38 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:11:48 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:14:01 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:33:49 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:36:08 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:42:33 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:55:35 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 17:58:39 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 19:37:31 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 19:48:07 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 19:48:48 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 19:52:03 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:01:57 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:29:41 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:38:29 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:38:59 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:39:03 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:40:39 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:42:49 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:45:26 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:45:28 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:46:34 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:48:13 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:49:09 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 20:59:49 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:01:07 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:01:09 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:02:42 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:11:15 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:14:53 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:19:56 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:23:32 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:23:46 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:23:48 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:23:49 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:26:40 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:31:29 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:33:51 ERROR IncidentsManager:168 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:41:09 ERROR IncidentsManager:170 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 21:46:49 ERROR IncidentsManager:170 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-04 23:03:27 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-04 23:03:27 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-04 23:03:28 ERROR IncidentsManager:170 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-04 23:05:55 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-04 23:05:55 ERROR IncidentsManager:170 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-04 23:09:33 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-04 23:09:33 ERROR IncidentsManager:170 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-04 23:31:21 INFO  HomeMgr:329 - Obtengo la organizacion id: SAGARPA
+2018-10-04 23:32:41 INFO  HomeMgr:329 - Obtengo la organizacion id: SAGARPA
+2018-10-05 11:16:20 INFO  HomeMgr:329 - Obtengo la organizacion id: SAGARPA
+2018-10-05 11:17:02 INFO  HomeMgr:329 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 11:19:49 INFO  HomeMgr:329 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 11:28:22 INFO  HomeMgr:329 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 11:29:13 INFO  HomeMgr:329 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 11:30:13 INFO  HomeMgr:329 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 12:06:00 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-05 12:06:00 INFO  HomeMgr:341 - Obtengo la organizacion id: 
+2018-10-05 12:06:23 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-05 12:06:24 INFO  HomeMgr:341 - Obtengo la organizacion id: 
+2018-10-05 12:49:12 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-05 12:49:13 ERROR IncidentsManager:94 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:49:13 INFO  HomeMgr:348 - Obtengo la organizacion id: 
+2018-10-05 12:54:45 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-05 12:54:45 ERROR IncidentsManager:94 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:54:45 INFO  HomeMgr:348 - Obtengo la organizacion id: 
+2018-10-05 12:54:49 ERROR UserManager:543 - Error:java.lang.NullPointerException
+2018-10-05 12:54:49 ERROR IncidentsManager:94 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 12:54:49 INFO  HomeMgr:348 - Obtengo la organizacion id: 
+2018-10-05 13:15:35 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 13:33:19 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 13:34:21 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-05 13:34:21 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-05 13:34:25 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 13:34:42 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 13:39:24 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 13:42:09 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:46:52 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:46:54 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:47:24 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:49:50 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:54:23 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:56:33 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:56:34 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 13:57:18 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 13:57:19 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 14:03:20 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 14:06:54 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 14:06:59 INFO  HomeMgr:554 - Obtengo la organizacion id: ELEKTRA
+2018-10-05 14:07:22 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 14:07:23 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 14:10:50 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 14:10:51 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 14:10:53 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 14:10:53 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 15:52:38 ERROR UserManager:542 - Error:java.lang.NullPointerException
+2018-10-05 15:52:38 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 17:31:05 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:31:05 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 17:33:39 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:33:44 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:34:11 INFO  HomeMgr:560 - Obtengo la organizacion id: SAGARPA
+2018-10-05 17:34:14 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:34:18 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:34:38 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:34:39 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 17:37:55 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 17:37:55 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 18:21:51 ERROR HomeMgr:124 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-05 18:22:40 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 18:27:23 ERROR HomeMgr:124 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-05 18:27:28 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-05 18:29:38 ERROR HomeMgr:124 - org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-05 18:30:22 INFO  HomeMgr:560 - Obtengo la organizacion id: 
+2018-10-05 18:30:26 INFO  HomeMgr:560 - Obtengo la organizacion id: 
+2018-10-05 18:30:32 INFO  HomeMgr:560 - Obtengo la organizacion id: 
+2018-10-05 18:56:26 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 18:58:30 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-05 19:00:22 ERROR UserManager:544 - Error:Error al Agregar los datos
+2018-10-05 19:02:04 ERROR UserManager:544 - Error:Error al Agregar los datos
+2018-10-05 19:03:05 ERROR UserManager:544 - Error:Error al Agregar los datos
+2018-10-05 19:19:17 ERROR UserManager:544 - Error:Error al Agregar los datos
+2018-10-07 16:54:44 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-07 16:54:45 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-07 16:56:30 INFO  HomeMgr:560 - Obtengo la organizacion id: SAGARPA
+2018-10-07 17:18:00 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 17:21:29 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:20:19 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-07 18:20:35 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-07 18:21:12 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:21:25 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:25:35 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:31:54 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:34:22 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:34:54 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 18:35:27 INFO  HomeMgr:569 - Obtengo la organizacion id: SAGARPA
+2018-10-07 22:51:14 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 22:57:26 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 22:58:50 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:19:12 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:19:37 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:19:39 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:19:40 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:19:43 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:20:02 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:20:10 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:21:43 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:21:45 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-07 23:21:47 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 09:45:20 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 09:45:32 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 09:45:32 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 09:46:35 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 09:48:39 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 09:50:14 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 10:24:50 ERROR RolManager:429 - Error:java.lang.NullPointerException
+2018-10-08 11:24:59 ERROR RolManager:363 - Error:java.lang.NullPointerException
+2018-10-08 11:27:21 ERROR RolManager:363 - Error:java.lang.NullPointerException
+2018-10-08 11:52:33 INFO  HomeMgr:564 - Obtengo la organizacion id: SAGARPA
+2018-10-08 13:45:39 ERROR UserManager:546 - Error:Error al Agregar los datos
+2018-10-08 13:45:39 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 13:45:39 INFO  HomeMgr:355 - Obtengo la organizacion id: 
+2018-10-08 23:45:53 ERROR UserManager:546 - Error:Error al Agregar los datos
+2018-10-08 23:45:53 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 23:45:53 ERROR RolManager:363 - Error:java.lang.NullPointerException
+2018-10-08 23:50:12 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 23:50:27 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 23:50:27 ERROR IncidentsManager:291 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 23:50:45 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-08 23:50:45 INFO  HomeMgr:395 - Obtengo la organizacion id: SAGARPA
+2018-10-09 09:55:41 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-09 10:13:48 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-09 10:18:11 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-09 10:26:33 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-09 11:16:49 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-09 11:19:25 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 11:19:35 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:19:36 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 11:19:36 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 11:19:37 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 11:19:40 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:19:44 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:23:47 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:23:57 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:47:43 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 11:48:06 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 12:29:35 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-09 12:32:15 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Invalid argument or cannot assign requested address; nested exception is java.net.SocketException: Invalid argument or cannot assign requested address
+2018-10-09 12:34:24 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 12:37:45 INFO  HomeMgr:609 - Obtengo la organizacion id: SAGARPA
+2018-10-09 12:43:26 INFO  HomeMgr:400 - Obtengo la organizacion id: SAGARPA
+2018-10-09 12:52:22 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-09 12:53:56 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-09 12:53:56 ERROR UserManager:577 - Error:org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/SecurityConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d9fdce3 has been closed already
+2018-10-09 12:53:56 ERROR RolManager:363 - Error:org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/SecurityConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d9fdce3 has been closed already
+2018-10-09 14:43:52 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 14:43:59 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 14:45:31 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 14:48:10 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 14:48:24 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 14:48:52 ERROR IncidentsManager:164 - Error:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 16:49:48 INFO  HomeMgr:401 - Obtengo la organizacion id: SAGARPA
+2018-10-09 16:49:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 16:49:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 16:49:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 16:49:51 INFO  HomeMgr:401 - Obtengo la organizacion id: SAGARPA
+2018-10-09 16:49:54 INFO  HomeMgr:401 - Obtengo la organizacion id: SAGARPA
+2018-10-09 16:50:10 INFO  HomeMgr:401 - Obtengo la organizacion id: SAGARPA
+2018-10-09 16:50:10 INFO  HomeMgr:401 - Obtengo la organizacion id: SAGARPA
+2018-10-09 16:50:14 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-09 16:50:14 INFO  FileMgr:234 - Inicia lectura de carpetas
+2018-10-09 16:51:06 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-10-09 16:52:10 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-10-09 16:53:01 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-10-09 16:54:50 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-10-09 16:55:29 INFO  HomeController:1277 - Metodo obtiene roles por organizacion
+2018-10-09 17:31:16 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-09 17:31:17 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 17:31:20 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-09 17:31:20 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 17:32:45 ERROR UserManager:543 - Error:Error al Agregar los datos
+2018-10-09 17:32:46 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 Bad Request
+2018-10-09 19:45:29 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:45:29 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:29 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:30 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:30 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:36 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:45:36 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:37 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:37 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:37 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:45:57 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:46:06 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:46:24 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:46:26 INFO  HomeController:1706 - Metodo obtiene carpetas de la organizacion
+2018-10-09 19:46:26 INFO  FileMgr:238 - Inicia lectura de carpetas
+2018-10-09 19:47:38 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:47:38 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:39 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:39 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:39 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:57 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:47:57 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:57 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:58 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:47:58 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 19:48:21 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:50:44 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 19:52:00 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:07:40 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:08:08 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:09:00 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:09:01 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 20:09:01 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 20:09:01 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 20:09:01 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 20:09:28 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:09:54 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:11:12 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:11:33 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:11:43 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:12:02 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:12:11 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:12:58 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:14:01 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:14:55 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:20:01 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:25:17 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:27:49 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:44:28 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:47:49 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:48:45 INFO  HomeController:1708 - Metodo obtiene carpetas de la organizacion
+2018-10-09 20:48:45 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-09 20:48:45 INFO  FileMgr:261 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-09 20:48:48 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:50:15 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 20:53:17 INFO  HomeController:1708 - Metodo obtiene carpetas de la organizacion
+2018-10-09 20:53:17 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-09 20:53:20 INFO  FileMgr:261 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-09 20:53:33 INFO  HomeController:1708 - Metodo obtiene carpetas de la organizacion
+2018-10-09 20:53:33 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-09 20:53:33 INFO  FileMgr:261 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-09 20:56:05 INFO  HomeMgr:402 - Obtengo la organizacion id: CARE
+2018-10-09 21:07:20 ERROR IncidentsManager:261 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 21:07:49 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:07:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 21:07:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 21:07:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 21:07:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 401 null
+2018-10-09 21:13:35 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-09 21:15:45 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-09 21:16:35 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-09 21:17:13 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-09 21:17:40 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-09 21:30:11 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-09 21:30:32 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-09 21:40:50 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-09 21:41:53 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:42:18 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:44:52 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:46:52 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:49:36 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-09 21:49:59 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 10:24:50 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:11 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:15 ERROR IncidentsManager:164 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:15 ERROR IncidentsManager:291 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:17 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:17 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 10:25:19 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:19 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 10:25:19 ERROR CatalogosManager:63 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:19 ERROR IncidentsManager:843 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:21 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:21 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 10:25:32 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:32 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 10:25:34 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 10:25:34 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-10 10:25:41 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 10:25:41 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-10 10:25:44 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 10:25:44 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-10 10:25:46 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.251.16:8080/ticketapi/oauth/token": La red es inaccesible (connect failed); nested exception is java.net.SocketException: La red es inaccesible (connect failed)
+2018-10-10 10:25:46 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 12:10:37 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 12:10:40 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 12:10:40 INFO  FileMgr:240 - Inicia lectura de carpetas
+2018-10-10 12:10:40 INFO  FileMgr:261 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 19:22:41 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 19:22:42 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:42 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:42 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:43 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:44 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:44 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:44 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:44 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:45 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:46 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:47 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:48 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:49 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:50 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:51 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:52 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:52 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:52 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:52 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:22:52 ERROR IncidentsManager:732 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-10 19:23:01 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:42:13 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 23:42:13 INFO  FileMgr:280 - Inicia lectura de carpetas
+2018-10-10 23:42:13 INFO  FileMgr:301 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:42:55 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:42:55 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-10 23:42:55 INFO  HomeController:1860 - Archivo [InstalacionArchive-1-2-4-1.pdf] con nombre duplicado
+2018-10-10 23:45:06 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:45:06 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-10 23:45:06 INFO  HomeController:1860 - Archivo [InstalacionArchive-1-2-4-1.pdf] con nombre duplicado
+2018-10-10 23:46:13 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:46:13 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-10 23:46:13 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-10 23:46:13 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-10 23:46:13 INFO  HomeController:1808 - Guardar archivo: InstalacionArchive-1-2-4-1.pdf
+2018-10-10 23:46:13 INFO  FileMgr:322 - Inicia lectura de carpetas
+2018-10-10 23:46:13 INFO  FileMgr:337 - Carpeta existe: 0
+2018-10-10 23:46:13 INFO  FileMgr:339 - Entro a consultar conteo de carpetas existentes
+2018-10-10 23:46:13 INFO  HomeController:1813 - Selecciona una carpeta
+2018-10-10 23:46:13 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:46:13 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:46:13 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:46:13 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-10 23:46:13 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-10 23:46:13 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-10 23:46:13 INFO  HomeController:1808 - Guardar archivo: InstalacionArchive-1-2-4-1.pdf
+2018-10-10 23:46:13 INFO  FileMgr:322 - Inicia lectura de carpetas
+2018-10-10 23:46:13 INFO  FileMgr:337 - Carpeta existe: 0
+2018-10-10 23:46:13 INFO  FileMgr:339 - Entro a consultar conteo de carpetas existentes
+2018-10-10 23:46:13 INFO  HomeController:1813 - Selecciona una carpeta
+2018-10-10 23:46:13 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:46:13 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:46:26 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:46:26 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-10 23:46:26 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-10 23:46:26 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-10 23:46:26 INFO  HomeController:1808 - Guardar archivo: InstalacionArchive-1-2-4-1.pdf
+2018-10-10 23:46:26 INFO  FileMgr:322 - Inicia lectura de carpetas
+2018-10-10 23:46:26 INFO  FileMgr:337 - Carpeta existe: 2
+2018-10-10 23:46:26 INFO  HomeController:1830 - entro ruta: InstalacionArchive-1-2-4-1.pdf
+2018-10-10 23:46:26 INFO  FileMgr:226 - Inicia insercion de ruta
+2018-10-10 23:46:26 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:46:26 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-10 23:46:26 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:46:26 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:47:31 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:47:31 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-10 23:47:31 INFO  FileMgr:196 - Numero de documento duplicado: 1
+2018-10-10 23:47:31 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-10 23:47:31 INFO  HomeController:1860 - Archivo [InstalacionArchive-1-2-4-1.pdf] con nombre duplicado
+2018-10-10 23:48:26 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 23:48:26 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:48:26 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:48:26 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 23:48:26 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:48:26 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:48:35 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:49:27 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 23:49:27 INFO  FileMgr:284 - Inicia lectura de carpetas
+2018-10-10 23:49:27 INFO  FileMgr:305 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:52:03 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-10 23:52:03 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-10 23:52:03 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:52:14 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:52:14 INFO  FileMgr:162 - Inicia validacion de existencia de archivo
+2018-10-10 23:52:14 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-10 23:52:14 INFO  HomeController:1860 - Archivo [InstalacionArchive-1-2-4-1.pdf] con nombre duplicado
+2018-10-10 23:53:56 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:53:56 INFO  FileMgr:183 - Inicia validacion de existencia de archivo
+2018-10-10 23:53:56 INFO  FileMgr:197 - Numero de documento duplicado: 1
+2018-10-10 23:53:56 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-10 23:53:56 INFO  HomeController:1860 - Archivo [InstalacionArchive-1-2-4-1.pdf] con nombre duplicado
+2018-10-10 23:55:22 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:55:22 INFO  FileMgr:183 - Inicia validacion de existencia de archivo
+2018-10-10 23:55:22 INFO  FileMgr:197 - Numero de documento duplicado: 0
+2018-10-10 23:55:22 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-10 23:55:22 INFO  HomeController:1808 - Guardar archivo: ppt-spring-web-mvc.pdf
+2018-10-10 23:55:22 INFO  FileMgr:323 - Inicia lectura de carpetas
+2018-10-10 23:55:22 INFO  FileMgr:338 - Carpeta existe: 0
+2018-10-10 23:55:22 INFO  FileMgr:340 - Entro a consultar conteo de carpetas existentes
+2018-10-10 23:55:22 INFO  HomeController:1813 - Selecciona una carpeta
+2018-10-10 23:55:22 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-10 23:55:22 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:55:34 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-10 23:55:34 INFO  FileMgr:183 - Inicia validacion de existencia de archivo
+2018-10-10 23:55:34 INFO  FileMgr:197 - Numero de documento duplicado: 0
+2018-10-10 23:55:34 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-10 23:55:34 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-10 23:55:34 INFO  FileMgr:323 - Inicia lectura de carpetas
+2018-10-10 23:55:34 INFO  FileMgr:338 - Carpeta existe: 3
+2018-10-10 23:55:34 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-10 23:55:34 INFO  FileMgr:227 - Inicia insercion de ruta
+2018-10-10 23:55:34 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-10 23:55:34 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-10 23:55:34 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-10 23:55:34 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-10 23:55:34 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:02:18 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:02:18 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:02:18 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:02:18 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:02:18 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:02:18 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:02:18 INFO  FileMgr:334 - Carpeta existe: 4
+2018-10-11 00:02:18 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:02:18 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:02:18 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:02:18 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:07:48 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:07:48 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:07:48 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:07:48 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:07:48 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:07:48 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:07:48 INFO  FileMgr:334 - Carpeta existe: 5
+2018-10-11 00:07:48 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:07:48 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:07:48 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:07:48 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:10:48 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:10:48 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:10:48 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:10:48 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:10:48 INFO  HomeController:1808 - Guardar archivo: ppt-spring-web-mvc.pdf
+2018-10-11 00:10:48 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:10:48 INFO  FileMgr:334 - Carpeta existe: 0
+2018-10-11 00:10:48 INFO  FileMgr:336 - Entro a consultar conteo de carpetas existentes
+2018-10-11 00:10:48 INFO  HomeController:1813 - Selecciona una carpeta
+2018-10-11 00:10:48 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 00:10:48 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:11:07 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:11:07 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:11:07 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:11:07 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:11:07 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:11:07 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:11:07 INFO  FileMgr:334 - Carpeta existe: 6
+2018-10-11 00:11:07 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:11:07 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:11:07 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:11:07 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:13:06 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 00:13:11 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 00:13:11 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 00:13:11 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:13:17 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 00:13:17 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:13:17 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:13:17 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:13:17 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:13:17 INFO  HomeController:1808 - Guardar archivo: ppt-spring-web-mvc.pdf
+2018-10-11 00:13:17 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:13:17 INFO  FileMgr:334 - Carpeta existe: 7
+2018-10-11 00:13:17 INFO  HomeController:1830 - entro ruta: ppt-spring-web-mvc.pdf
+2018-10-11 00:13:17 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:13:17 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:13:17 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:13:32 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Invalid argument or cannot assign requested address; nested exception is java.net.SocketException: Invalid argument or cannot assign requested address
+2018-10-11 00:13:32 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:13:32 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:13:32 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:13:32 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:13:32 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:13:32 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:13:32 INFO  FileMgr:334 - Carpeta existe: 8
+2018-10-11 00:13:32 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:13:32 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:13:32 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:13:32 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:13:59 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-11 00:13:59 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:13:59 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:13:59 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:13:59 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:13:59 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:13:59 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:13:59 INFO  FileMgr:334 - Carpeta existe: 9
+2018-10-11 00:13:59 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:13:59 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:13:59 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:13:59 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 00:14:11 ERROR IncidentsManager:88 - Error:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-11 00:14:11 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 00:14:11 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 00:14:11 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 00:14:11 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 00:14:11 INFO  HomeController:1808 - Guardar archivo: ppt-base-de-datos.pdf
+2018-10-11 00:14:11 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 00:14:11 INFO  FileMgr:334 - Carpeta existe: 10
+2018-10-11 00:14:11 INFO  HomeController:1830 - entro ruta: ppt-base-de-datos.pdf
+2018-10-11 00:14:11 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 00:14:11 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 00:14:11 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 10:48:53 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:49:22 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 10:49:22 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 10:49:22 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 10:50:35 ERROR IncidentsManager:164 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:50:35 ERROR IncidentsManager:291 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:51:15 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:51:40 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 10:51:40 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 10:51:40 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 10:52:00 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:52:09 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 10:52:09 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 10:52:18 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:52:18 INFO  HomeMgr:402 - Obtengo la organizacion id: ELEKTRA
+2018-10-11 10:52:53 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:52:53 INFO  HomeMgr:402 - Obtengo la organizacion id: ELEKTRA
+2018-10-11 10:53:03 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:53:06 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 10:53:06 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 10:53:06 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 10:53:18 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 10:53:18 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 10:53:18 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 10:53:18 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 10:53:18 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 10:53:18 INFO  HomeController:1808 - Guardar archivo: ppt-spring-web-mvc.pdf
+2018-10-11 10:53:18 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 10:53:18 INFO  FileMgr:334 - Carpeta existe: 11
+2018-10-11 10:53:18 INFO  HomeController:1830 - entro ruta: ppt-spring-web-mvc.pdf
+2018-10-11 10:53:18 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 10:53:18 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 10:53:18 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 11:01:01 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:01:01 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 11:01:01 ERROR CatalogosManager:63 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:01:01 ERROR IncidentsManager:846 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:02:30 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:02:33 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 11:02:33 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 11:02:33 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 11:02:42 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:02:42 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 11:02:42 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 11:02:42 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 11:02:42 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 11:02:42 INFO  HomeController:1808 - Guardar archivo: ppt-spring-web-mvc.pdf
+2018-10-11 11:02:42 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 11:02:42 INFO  FileMgr:334 - Carpeta existe: 12
+2018-10-11 11:02:42 INFO  HomeController:1830 - entro ruta: ppt-spring-web-mvc.pdf
+2018-10-11 11:02:42 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 11:02:43 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 11:02:43 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 11:07:14 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:07:16 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 11:07:16 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 11:07:16 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 11:08:41 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 11:08:41 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 11:08:41 INFO  FileMgr:179 - Inicia validacion de existencia de archivo
+2018-10-11 11:08:41 INFO  FileMgr:193 - Numero de documento duplicado: 0
+2018-10-11 11:08:41 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 11:08:41 INFO  HomeController:1808 - Guardar archivo: ASP-Banamex.pdf
+2018-10-11 11:08:41 INFO  FileMgr:319 - Inicia lectura de carpetas
+2018-10-11 11:08:41 INFO  FileMgr:334 - Carpeta existe: 13
+2018-10-11 11:08:41 INFO  HomeController:1830 - entro ruta: ASP-Banamex.pdf
+2018-10-11 11:08:41 INFO  FileMgr:223 - Inicia insercion de ruta
+2018-10-11 11:08:41 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 11:08:41 INFO  FileMgr:97 - Inicia insert de archivo
+2018-10-11 11:08:41 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 11:08:41 INFO  FileMgr:281 - Inicia lectura de carpetas
+2018-10-11 11:08:41 INFO  FileMgr:302 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:08:17 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:08:20 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:08:20 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:08:58 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:08:58 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:14:54 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:14:54 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:17:13 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:17:41 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:17:41 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:17:41 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:17:50 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:17:50 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:17:50 ERROR IncidentsManager:88 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-11 12:17:50 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:19:39 INFO  HomeMgr:611 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:21:22 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:23:00 INFO  HomeMgr:611 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:23:53 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:26:26 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:26:26 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:26:26 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:26:58 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:26:58 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-11 12:26:58 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-11 12:26:58 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 12:26:58 INFO  HomeController:1808 - Guardar archivo: convocatoria-UAEMex-2018.pdf
+2018-10-11 12:26:58 INFO  FileMgr:323 - Inicia lectura de carpetas
+2018-10-11 12:26:58 INFO  FileMgr:338 - Carpeta existe: 14
+2018-10-11 12:26:58 INFO  HomeController:1830 - entro ruta: convocatoria-UAEMex-2018.pdf
+2018-10-11 12:26:58 INFO  FileMgr:227 - Inicia insercion de ruta
+2018-10-11 12:26:58 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:26:58 INFO  FileMgr:96 - Inicia insert de archivo
+2018-10-11 12:26:59 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 12:26:59 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:26:59 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:27:41 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:27:57 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:27:57 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:27:57 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:28:19 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:28:19 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-11 12:28:19 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-11 12:28:19 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 12:28:19 INFO  HomeController:1808 - Guardar archivo: convocatoria-UNAM-2017.pdf
+2018-10-11 12:28:19 INFO  FileMgr:323 - Inicia lectura de carpetas
+2018-10-11 12:28:19 INFO  FileMgr:338 - Carpeta existe: 15
+2018-10-11 12:28:19 INFO  HomeController:1830 - entro ruta: convocatoria-UNAM-2017.pdf
+2018-10-11 12:28:19 INFO  FileMgr:227 - Inicia insercion de ruta
+2018-10-11 12:28:19 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:28:19 INFO  FileMgr:96 - Inicia insert de archivo
+2018-10-11 12:28:19 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 12:28:19 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:28:19 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:30:33 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:30:33 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:30:33 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:32:09 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:32:09 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-11 12:32:09 INFO  FileMgr:196 - Numero de documento duplicado: 1
+2018-10-11 12:32:09 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 12:32:09 INFO  HomeController:1860 - Archivo [ASP-Banamex.pdf] con nombre duplicado
+2018-10-11 12:32:38 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:32:38 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:32:38 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:32:42 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:32:42 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:32:42 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:32:50 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:32:50 INFO  FileMgr:182 - Inicia validacion de existencia de archivo
+2018-10-11 12:32:50 INFO  FileMgr:196 - Numero de documento duplicado: 0
+2018-10-11 12:32:50 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 12:32:50 INFO  HomeController:1808 - Guardar archivo: Temario-IPN-CSA.pdf
+2018-10-11 12:32:50 INFO  FileMgr:323 - Inicia lectura de carpetas
+2018-10-11 12:32:50 INFO  FileMgr:338 - Carpeta existe: 16
+2018-10-11 12:32:50 INFO  HomeController:1830 - entro ruta: Temario-IPN-CSA.pdf
+2018-10-11 12:32:50 INFO  FileMgr:227 - Inicia insercion de ruta
+2018-10-11 12:32:50 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:32:50 INFO  FileMgr:96 - Inicia insert de archivo
+2018-10-11 12:32:50 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 12:32:50 INFO  FileMgr:285 - Inicia lectura de carpetas
+2018-10-11 12:32:50 INFO  FileMgr:306 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:53:22 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:53:22 INFO  FileMgr:289 - Inicia lectura de carpetas
+2018-10-11 12:53:22 INFO  FileMgr:310 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:53:26 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:53:33 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:53:33 INFO  FileMgr:289 - Inicia lectura de carpetas
+2018-10-11 12:53:33 INFO  FileMgr:310 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:53:46 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:53:46 INFO  FileMgr:161 - Inicia validacion de existencia de archivo
+2018-10-11 12:53:46 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 12:53:46 INFO  HomeController:1860 - Archivo [ASP-Banamex.pdf] con nombre duplicado
+2018-10-11 12:55:10 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 12:55:10 INFO  FileMgr:289 - Inicia lectura de carpetas
+2018-10-11 12:55:10 INFO  FileMgr:310 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 12:55:20 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 12:55:20 INFO  FileMgr:161 - Inicia validacion de existencia de archivo
+2018-10-11 12:55:20 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 12:55:20 INFO  HomeController:1860 - Archivo [ASP-Oxxo.pdf] con nombre duplicado
+2018-10-11 13:27:26 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 13:27:26 INFO  FileMgr:358 - Inicia lectura de carpetas
+2018-10-11 13:27:26 INFO  FileMgr:379 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 13:27:57 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 13:27:57 INFO  FileMgr:192 - Inicia validacion de existencia de archivo
+2018-10-11 13:27:57 INFO  FileMgr:206 - Numero de documento duplicado: 0
+2018-10-11 13:27:57 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 13:27:57 INFO  HomeController:1808 - Guardar archivo: Temario-CAD.pdf
+2018-10-11 13:27:57 INFO  FileMgr:396 - Inicia lectura de carpetas
+2018-10-11 13:27:57 INFO  FileMgr:411 - Carpeta existe: 17
+2018-10-11 13:27:57 INFO  HomeController:1830 - entro ruta: Temario-CAD.pdf
+2018-10-11 13:27:57 INFO  FileMgr:237 - Inicia insercion de ruta
+2018-10-11 13:27:57 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 13:27:57 INFO  FileMgr:99 - Inicia insert de archivo
+2018-10-11 13:27:57 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 13:27:57 INFO  FileMgr:358 - Inicia lectura de carpetas
+2018-10-11 13:27:57 INFO  FileMgr:379 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 17:50:19 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-11 17:50:20 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-11 17:50:20 ERROR UserManager:576 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:50:20 ERROR RolManager:360 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:51:07 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-11 17:51:08 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-11 17:51:08 ERROR UserManager:576 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:51:08 ERROR RolManager:360 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:53:52 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-11 17:53:52 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-11 17:53:52 ERROR UserManager:576 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:53:52 ERROR RolManager:360 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:55:46 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-11 17:55:46 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-11 17:55:46 ERROR UserManager:576 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:55:46 ERROR RolManager:360 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:55:53 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-11 17:55:53 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-11 17:55:53 ERROR UserManager:576 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:55:53 ERROR RolManager:360 - Error:org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'transactionManager' available: No matching PlatformTransactionManager bean found for qualifier 'transactionManager' - neither qualifier match nor bean name match!
+2018-10-11 17:56:11 ERROR RolManager:426 - Error:org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/SecurityConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customSuccessHandler' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/CustomSuccessHandler.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rolService' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/service/impl/RolServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+2018-10-11 17:57:07 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 17:57:07 INFO  FileMgr:413 - Inicia lectura de carpetas
+2018-10-11 17:57:07 INFO  FileMgr:434 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 17:57:19 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 17:57:19 INFO  FileMgr:194 - Inicia validacion de existencia de archivo
+2018-10-11 17:57:19 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 17:57:19 INFO  HomeController:1860 - Archivo [1117100055315_resp.pdf] con nombre duplicado
+2018-10-11 18:03:26 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 18:03:26 INFO  FileMgr:194 - Inicia validacion de existencia de archivo
+2018-10-11 18:03:26 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 18:03:26 INFO  HomeController:1860 - Archivo [1117100055315_resp.pdf] con nombre duplicado
+2018-10-11 19:19:33 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:19:33 INFO  FileMgr:397 - Inicia lectura de carpetas
+2018-10-11 19:19:33 INFO  FileMgr:418 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:19:42 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:19:42 INFO  FileMgr:242 - Inicia validacion de existencia de archivo
+2018-10-11 19:19:42 INFO  FileMgr:256 - Numero de documento duplicado: 0
+2018-10-11 19:19:42 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 19:19:42 INFO  HomeController:1808 - Guardar archivo: 1117100055315_resp.pdf
+2018-10-11 19:19:42 INFO  FileMgr:435 - Inicia lectura de carpetas
+2018-10-11 19:19:42 INFO  FileMgr:450 - Carpeta existe: 18
+2018-10-11 19:19:42 INFO  HomeController:1830 - entro ruta: 1117100055315_resp.pdf
+2018-10-11 19:19:42 INFO  FileMgr:287 - Inicia insercion de ruta
+2018-10-11 19:19:42 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:19:42 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 19:19:42 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 19:19:42 INFO  FileMgr:397 - Inicia lectura de carpetas
+2018-10-11 19:19:42 INFO  FileMgr:418 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:21:08 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:21:08 INFO  FileMgr:242 - Inicia validacion de existencia de archivo
+2018-10-11 19:21:08 INFO  FileMgr:256 - Numero de documento duplicado: 1
+2018-10-11 19:21:08 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:21:08 INFO  HomeController:1860 - Archivo [1117100055315_resp.pdf] con nombre duplicado
+2018-10-11 19:27:35 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:27:35 INFO  FileMgr:349 - Inicia lectura de carpetas
+2018-10-11 19:27:35 INFO  FileMgr:370 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:27:43 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:27:43 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:27:43 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:27:43 INFO  HomeController:1860 - Archivo [1117100055315_resp.pdf] con nombre duplicado
+2018-10-11 19:29:01 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:29:01 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:29:01 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:29:01 INFO  HomeController:1860 - Archivo [1117100055315_resp.pdf] con nombre duplicado
+2018-10-11 19:29:17 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:29:17 INFO  FileMgr:334 - Inicia lectura de carpetas
+2018-10-11 19:29:17 INFO  FileMgr:355 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:29:24 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:29:24 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:29:24 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 19:29:24 INFO  HomeController:1860 - Archivo [area-1.pdf] con nombre duplicado
+2018-10-11 19:29:54 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:29:54 INFO  FileMgr:334 - Inicia lectura de carpetas
+2018-10-11 19:29:54 INFO  FileMgr:355 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:30:18 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:30:18 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:30:18 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:30:18 INFO  HomeController:1860 - Archivo [Temario-IPN-CSA.pdf] con nombre duplicado
+2018-10-11 19:32:05 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:32:05 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:32:05 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:32:05 INFO  HomeController:1860 - Archivo [Temario-IPN-CSA.pdf] con nombre duplicado
+2018-10-11 19:33:37 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:33:37 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:33:37 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:33:51 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:33:51 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:33:51 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:33:51 INFO  HomeController:1860 - Archivo [convocatoria-UAEMex-2018.pdf] con nombre duplicado
+2018-10-11 19:33:56 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:33:56 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:33:56 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:34:06 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:34:06 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:34:06 INFO  HomeController:1806 - Existe archivo: -1
+2018-10-11 19:34:06 INFO  HomeController:1860 - Archivo [Temario-IPN-CMB.pdf] con nombre duplicado
+2018-10-11 19:35:12 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:35:12 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:35:12 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:36:27 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:36:27 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:36:27 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 19:36:27 INFO  HomeController:1808 - Guardar archivo: Temario-IPN-CMB.pdf
+2018-10-11 19:36:27 INFO  FileMgr:373 - Inicia lectura de carpetas
+2018-10-11 19:36:27 INFO  FileMgr:388 - Carpeta existe: 19
+2018-10-11 19:36:27 INFO  HomeController:1830 - entro ruta: Temario-IPN-CMB.pdf
+2018-10-11 19:36:27 INFO  FileMgr:246 - Inicia insercion de ruta
+2018-10-11 19:36:27 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:36:27 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 19:36:27 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 19:36:27 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:36:27 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:36:34 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:36:34 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:36:34 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:36:34 INFO  HomeController:1860 - Archivo [Temario-IPN-CMB.pdf] con nombre duplicado
+2018-10-11 19:38:18 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:38:18 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:38:18 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:38:18 INFO  HomeController:1860 - Archivo [Temario-IPN-CMB.pdf] con nombre duplicado
+2018-10-11 19:39:02 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:39:02 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:39:02 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:39:11 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:39:11 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:39:11 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 19:39:11 INFO  HomeController:1808 - Guardar archivo: Temario-IPN-CFM.pdf
+2018-10-11 19:39:11 INFO  FileMgr:373 - Inicia lectura de carpetas
+2018-10-11 19:39:11 INFO  FileMgr:388 - Carpeta existe: 20
+2018-10-11 19:39:11 INFO  HomeController:1830 - entro ruta: Temario-IPN-CFM.pdf
+2018-10-11 19:39:11 INFO  FileMgr:246 - Inicia insercion de ruta
+2018-10-11 19:39:11 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:39:11 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 19:39:11 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 19:39:11 INFO  FileMgr:335 - Inicia lectura de carpetas
+2018-10-11 19:39:11 INFO  FileMgr:356 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:45:41 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:45:41 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:45:41 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 19:45:41 INFO  HomeController:1860 - Archivo [Temario-IPN-CFM.pdf] con nombre duplicado
+2018-10-11 19:45:57 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:45:57 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 19:45:57 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:46:07 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:46:07 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:46:07 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 19:46:07 INFO  HomeController:1808 - Guardar archivo: Temario-CSH.pdf
+2018-10-11 19:46:07 INFO  FileMgr:370 - Inicia lectura de carpetas
+2018-10-11 19:46:07 INFO  FileMgr:385 - Carpeta existe: 21
+2018-10-11 19:46:07 INFO  HomeController:1830 - entro ruta: Temario-CSH.pdf
+2018-10-11 19:46:07 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 19:46:07 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:46:07 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 19:46:07 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 19:46:07 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 19:46:07 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:47:13 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 19:47:13 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 19:47:13 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:47:33 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 19:47:33 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 19:47:33 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 19:47:33 INFO  HomeController:1808 - Guardar archivo: Temario-CBS.pdf
+2018-10-11 19:47:33 INFO  FileMgr:370 - Inicia lectura de carpetas
+2018-10-11 19:47:33 INFO  FileMgr:385 - Carpeta existe: 22
+2018-10-11 19:47:33 INFO  HomeController:1830 - entro ruta: Temario-CBS.pdf
+2018-10-11 19:47:33 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 19:47:33 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 19:47:33 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 19:47:33 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 19:47:33 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 19:47:33 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:01:35 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:01:35 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:01:35 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 20:01:35 INFO  HomeController:1860 - Archivo [Temario-CBS.pdf] con nombre duplicado
+2018-10-11 20:01:52 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 20:01:52 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:01:52 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:02:10 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:02:10 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:02:10 INFO  HomeController:1806 - Existe archivo: 1
+2018-10-11 20:02:10 INFO  HomeController:1860 - Archivo [Temario-CAD.pdf] con nombre duplicado
+2018-10-11 20:02:17 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 20:02:17 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:02:17 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:03:36 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:03:36 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:03:36 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 20:03:36 INFO  HomeController:1808 - Guardar archivo: convocatoria-UNAM-2017.pdf
+2018-10-11 20:03:36 INFO  FileMgr:408 - Inicia lectura de carpetas
+2018-10-11 20:03:36 INFO  FileMgr:419 - Carpeta existe: 23
+2018-10-11 20:03:36 INFO  HomeController:1830 - entro ruta: convocatoria-UNAM-2017.pdf
+2018-10-11 20:03:36 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 20:03:36 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:03:36 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 20:03:36 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 20:03:36 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:03:36 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:03:50 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:03:50 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:03:50 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 20:03:50 INFO  HomeController:1808 - Guardar archivo: calendario-unam-ingreso-2018-2019.pdf
+2018-10-11 20:03:50 INFO  FileMgr:408 - Inicia lectura de carpetas
+2018-10-11 20:03:50 INFO  FileMgr:419 - Carpeta existe: 24
+2018-10-11 20:03:50 INFO  HomeController:1830 - entro ruta: calendario-unam-ingreso-2018-2019.pdf
+2018-10-11 20:03:50 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 20:03:50 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:03:50 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 20:03:50 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 20:03:50 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:03:50 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:04:26 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:04:26 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:04:26 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 20:04:26 INFO  HomeController:1808 - Guardar archivo: ASP-Spei.pdf
+2018-10-11 20:04:26 INFO  FileMgr:408 - Inicia lectura de carpetas
+2018-10-11 20:04:26 INFO  FileMgr:419 - Carpeta existe: 0
+2018-10-11 20:04:26 INFO  FileMgr:421 - Entro a consultar conteo de carpetas existentes
+2018-10-11 20:04:26 INFO  HomeController:1813 - Selecciona una carpeta
+2018-10-11 20:04:26 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:04:26 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:07:15 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:07:15 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:07:15 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 20:07:15 INFO  HomeController:1808 - Guardar archivo: ASP-Spei.pdf
+2018-10-11 20:07:15 INFO  FileMgr:408 - Inicia lectura de carpetas
+2018-10-11 20:07:15 INFO  FileMgr:419 - Carpeta existe: 25
+2018-10-11 20:07:15 INFO  HomeController:1830 - entro ruta: ASP-Spei.pdf
+2018-10-11 20:07:15 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 20:07:15 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:07:15 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 20:07:15 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 20:07:15 INFO  FileMgr:332 - Inicia lectura de carpetas
+2018-10-11 20:07:15 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:10:13 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-11 20:10:13 INFO  FileMgr:332 - Inicia lectura de carpetas getListaRutas
+2018-10-11 20:10:13 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:10:32 INFO  HomeMgr:402 - Obtengo la organizacion id: SAGARPA
+2018-10-11 20:10:32 INFO  FileMgr:172 - Inicia validacion de existencia de archivo
+2018-10-11 20:10:32 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-11 20:10:32 INFO  HomeController:1808 - Guardar archivo: ASP-Spei-promo.pdf
+2018-10-11 20:10:32 INFO  FileMgr:408 - Inicia lectura de carpetas getExisteRuta
+2018-10-11 20:10:32 INFO  FileMgr:419 - Carpeta existe: 26
+2018-10-11 20:10:32 INFO  HomeController:1830 - entro ruta: ASP-Spei-promo.pdf
+2018-10-11 20:10:32 INFO  FileMgr:245 - Inicia insercion de ruta
+2018-10-11 20:10:32 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-11 20:10:32 INFO  FileMgr:103 - Inicia insert de archivo
+2018-10-11 20:10:32 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-11 20:10:32 INFO  FileMgr:332 - Inicia lectura de carpetas getListaRutas
+2018-10-11 20:10:32 INFO  FileMgr:353 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:36:42 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-12 16:36:42 INFO  FileMgr:336 - Inicia lectura de carpetas
+2018-10-12 16:36:42 INFO  FileMgr:346 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:36:45 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:36:51 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-12 16:36:51 INFO  FileMgr:336 - Inicia lectura de carpetas
+2018-10-12 16:36:51 INFO  FileMgr:346 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:36:59 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-12 16:36:59 INFO  FileMgr:336 - Inicia lectura de carpetas
+2018-10-12 16:36:59 INFO  FileMgr:346 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:37:10 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:37:17 INFO  HomeController:1709 - Metodo obtiene carpetas de la organizacion
+2018-10-12 16:37:17 INFO  FileMgr:336 - Inicia lectura de carpetas
+2018-10-12 16:37:17 INFO  FileMgr:346 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:37:27 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:37:27 INFO  FileMgr:174 - Inicia validacion de existencia de archivo
+2018-10-12 16:37:27 INFO  HomeController:1806 - Existe archivo: 0
+2018-10-12 16:37:27 INFO  HomeController:1808 - Guardar archivo: ASP-Banamex-promo.pdf
+2018-10-12 16:37:27 INFO  FileMgr:441 - Inicia lectura de carpetas getExisteRuta
+2018-10-12 16:37:27 INFO  FileMgr:450 - Carpeta existe: 27
+2018-10-12 16:37:27 INFO  HomeController:1830 - entro ruta: ASP-Banamex-promo.pdf
+2018-10-12 16:37:27 INFO  FileMgr:248 - Inicia insercion de ruta
+2018-10-12 16:37:27 INFO  HomeController:1832 - idCarpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:37:27 INFO  FileMgr:105 - Inicia insert de archivo
+2018-10-12 16:37:27 INFO  HomeController:1849 - Metodo obtiene carpetas de la organizacion upload
+2018-10-12 16:37:27 INFO  FileMgr:336 - Inicia lectura de carpetas
+2018-10-12 16:37:27 INFO  FileMgr:346 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 16:49:02 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:50:55 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:52:36 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 16:53:47 INFO  HomeMgr:414 - Obtengo la organizacion id: ACTINVER
+2018-10-12 16:59:00 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-12 17:01:25 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-12 17:02:53 INFO  HomeController:1280 - Metodo obtiene roles por organizacion
+2018-10-12 17:49:01 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:06:28 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:06:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 19:07:03 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:07:26 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:07:58 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:08:16 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:08:58 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 19:09:02 INFO  HomeController:1703 - Metodo obtiene carpetas de la organizacion
+2018-10-12 19:09:02 INFO  FileMgr:334 - Inicia lectura de carpetas
+2018-10-12 19:09:02 INFO  FileMgr:344 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-12 20:23:00 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:23:16 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:24:34 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-12 20:24:34 ERROR UserManager:576 - Error:org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/SecurityConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15f9c869 has been closed already
+2018-10-12 20:24:34 ERROR RolManager:363 - Error:org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfiguration' defined in file [/home/marco/Escritorio/Refactorizacion/ProyectoSMC/smc-app/tp-smc-web/target/classes/mx/com/tp/smc/conf/SecurityConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15f9c869 has been closed already
+2018-10-12 20:29:41 ERROR UserManager:576 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:29:41 ERROR RolManager:363 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:29:48 ERROR UserManager:576 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:29:48 ERROR RolManager:363 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:30:04 ERROR UserManager:576 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:30:04 ERROR RolManager:363 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:30:32 ERROR UserManager:542 - Error:Error al Agregar los datos
+2018-10-12 20:30:32 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:30:32 ERROR UserManager:576 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:30:32 ERROR RolManager:363 - Error:org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-10-12 20:31:06 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:13 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:17 ERROR IncidentsManager:160 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:17 ERROR IncidentsManager:287 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:24 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:24 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:24 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 20:36:24 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 20:36:31 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:31 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 20:36:32 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:32 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 20:36:33 ERROR CatalogosManager:63 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:33 ERROR IncidentsManager:842 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:35 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:36:35 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 20:36:46 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-12 20:39:02 ERROR IncidentsManager:257 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:18:33 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Invalid argument or cannot assign requested address; nested exception is java.net.SocketException: Invalid argument or cannot assign requested address
+2018-10-12 21:25:27 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 21:25:28 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:28 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:28 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:28 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:29 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:30 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:31 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:32 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:33 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:34 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:35 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:36 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:37 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:38 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:25:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:50 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 21:31:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:51 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:52 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:52 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:52 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:52 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:52 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:53 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:54 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:55 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:56 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:57 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:58 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:31:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:38 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 21:34:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:39 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:40 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:41 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:42 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:42 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:42 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:42 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:42 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:43 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:44 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:44 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:44 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:44 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:44 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:45 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:46 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:46 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:46 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:46 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:46 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:47 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:47 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:47 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:47 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:47 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:48 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:49 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:34:50 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:08 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 21:40:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:10 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:11 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:12 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:13 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:14 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:15 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:16 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:16 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:16 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:16 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:16 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:17 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:18 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:19 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:19 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 21:40:19 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:32:59 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 22:32:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:32:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:32:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:32:59 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:00 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:01 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:02 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:03 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:04 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:05 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:06 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:07 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:08 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 22:33:09 ERROR IncidentsManager:728 - Error:org.springframework.web.client.HttpClientErrorException: 400 null
+2018-10-12 23:05:59 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-12 23:06:19 INFO  HomeController:1275 - Metodo obtiene roles por organizacion
+2018-10-15 16:04:34 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-15 16:04:41 ERROR HomeManager:69 - Error en grafica tickets home:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://10.180.199.117:8080/ticketapi/oauth/token": Expiró el tiempo de conexión (Connection timed out); nested exception is java.net.ConnectException: Expiró el tiempo de conexión (Connection timed out)
+2018-10-15 16:07:04 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:29 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:29 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:07:32 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:32 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:07:33 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:33 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:07:33 ERROR CatalogosManager:63 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:33 ERROR IncidentsManager:842 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:35 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:07:35 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:08:00 ERROR IncidentsManager:160 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:00 ERROR IncidentsManager:287 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:45 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:45 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:08:47 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:47 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:08:47 ERROR CatalogosManager:63 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:47 ERROR IncidentsManager:842 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:52 ERROR IncidentsManager:84 - Error:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:08:52 INFO  HomeMgr:414 - Obtengo la organizacion id: SAGARPA
+2018-10-15 16:11:25 INFO  HomeController:1707 - Metodo obtiene carpetas de la organizacion
+2018-10-15 16:11:25 INFO  FileMgr:334 - Inicia lectura de carpetas
+2018-10-15 16:11:25 INFO  FileMgr:344 - Carpeta: /Carpeta_Rep_Jun_2018
+2018-10-15 16:27:46 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:36:12 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:49:17 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:51:07 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute
+2018-10-15 16:53:31 ERROR HomeManager:69 - Error en grafica tickets home:java.lang.IllegalArgumentException: URI is not absolute

@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+.styleTPEbtn {
+	background-color: #d2322d !important;
+	color: white;
+	border: 0px;
+	border-radius: 0px;
+	border-color: #ac2925;
+}
+
+.styleTPEbtn:hover {
+	color: white;
+	background-color: #da3541 !important
+	
+}
+
+.styleTPEbtnSearch {
+	background-color: #d2322d !important;
+	color: white;
+	border: 0px;
+	border-radius: 0px;
+	padding: 6px;
+	margin-left: 3px;
+	border-color: #ac2925;
+}
+
+.styleTPEbtnSearch:hover {
+	color: white;
+	background-color: #da3541 !important
+}
+.styleTPEbtnReportes {
+	color: white;
+	height:33px;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #d2322d !important;
+	border-color: #ac2925;
+	
+}
+
+.styleTPEbtnReportes:hover {
+	color: white;
+	height:33px;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #da3541 !important
+}

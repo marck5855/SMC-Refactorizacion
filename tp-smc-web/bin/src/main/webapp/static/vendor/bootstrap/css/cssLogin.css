@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+
+    &:focus {
+        z-index: 2;
+    }
+}
+
+body {
+    background-color: background-color:#f7f8f9 !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    margin-top: 20px;
+   
+}
+
+form[role=login] {
+    color: #5d5d5d;
+    background: #f7f8f9 !important;;
+    padding: 20px;
+}
+form[role=login] img {
+    display: block;
+    margin: 0 auto;
+}
+form[role=login] input,
+form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+}
+form[role=login] > div {
+    text-align: center;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+.creditos {
+    text-align: center;
+    font-size: 11px;
+    color:#888;
+}
+.form-links a {
+    color: #9D595B;
+}
+
+.AnchoPaisCombo{
+    height: 40px;
+}

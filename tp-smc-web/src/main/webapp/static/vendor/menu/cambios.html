@@ -1,0 +1,148 @@
+
+estilos.css 
+
+linea:5
+.content-container {
+    top: 150px !important;
+}
+
+linea:634
+.cerrarSesion a {    
+padding: 12px 20px;
+}
+
+linea:656
+.dropdownOverwriting strong {
+
+    margin-right: 20px !important;
+}
+
+linea:623
+.pfFoto {
+    padding-right: 20px;
+
+
+drawerStyle.css
+
+linea:51
+#menu-toggle:checked ~ .content-container {
+    margin-left: 0px;
+}
+
+linea:71
+@media (max-width: 991px)
+.content-container {
+    max-width: px;
+}
+
+linea:79
+@media (max-width: 767px)
+.content-container {
+    margin-left: 0px;
+}
+
+linea:1
+.content-container {
+    margin-left: 0px;
+}
+
+minoral.css
+
+linea:2217
+body .navbar .user-con
+trols ul li .profile-photo {
+
+    width: 105px;
+    overflow: hidden;
+}
+
+linea:2229
+body .navbar .user-controls ul li .profile-photo img {
+    width: 105px;
+}
+
+
+
+
+
+<!-- AGREGAR-->
+<link rel="stylesheet"
+	href="/portaltpe/static/vendor/bootstrap/css/estilo.css">
+<script src="<c:url value='/static/vendor/js/scripts.js' />"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<!-- AGREGAR -->
+
+
+	
+	<!-- NUEVO MENU -->
+
+	<header>
+		<div id="bandera" style="display: none">1</div>
+		<div class="navbar-fixed">
+			<nav class="white">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a class="brand-logo" href="/portaltpe/home"> <img
+							class="responsive-img"
+							src="/portaltpe/static/images/logo-enlace-tp.png">
+						</a> <a class="button-collapse" href="/" data-activates="mobile-demo">
+							<i class="material-icons"> <svg fill="#000000" height="24"
+									viewBox="0 0 24 24" width="24"
+									xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+										d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+						</i>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<c:forEach items="${model3.menus}" var="menu">
+								<c:if test="${menu.idSubMenu == null}">
+									<li><a href="#"> <c:out
+												value="${menu.tituloPrincipal}" />
+									</a>
+										<ul class="center-align">
+											<c:forEach items="${model4.menus}" var="submenu">
+
+												<c:if test="${menu.idMenu == submenu.idSubMenu}">
+													<li><a href="${submenu.path}"> <c:out
+																value="${submenu.tituloPrincipal}" /></a></li>
+												</c:if>
+
+											</c:forEach>
+
+										</ul></li>
+								</c:if>
+							</c:forEach>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<ul class="side-nav center-align" id="mobile-demo"
+			style="transform: translateX(-100%);">
+
+			<c:forEach items="${model3.menus}" var="menu">
+				<c:if test="${menu.idSubMenu == null}">
+					<li><a href="#"> <c:out value="${menu.tituloPrincipal}" />
+					</a>
+						<ul class="center-align">
+							<c:forEach items="${model4.menus}" var="submenu">
+
+								<c:if test="${menu.idMenu == submenu.idSubMenu}">
+									<li><a href="${submenu.path}"> <c:out
+												value="${submenu.tituloPrincipal}" /></a></li>
+								</c:if>
+
+							</c:forEach>
+						</ul></li>
+				</c:if>
+			</c:forEach>
+			<ul>
+				<li class="cerrarSesion"><a href="/portaltpe/logout"><i
+						class="fa fa-power-off fa-fw"></i> Cerrar Sesión</a></li>
+			</ul>
+		</ul>
+	</header>
+	<!-- NUEVO MENU -->

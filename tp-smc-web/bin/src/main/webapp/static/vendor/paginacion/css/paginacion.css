@@ -1,0 +1,15 @@
+.pg-normal {
+                color: red;
+                font-weight: normal;
+                text-decoration: none;    
+                cursor: pointer;    
+            }
+            
+.pg-selected {
+                color: red;
+                font-weight: bold;        
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            
+          
